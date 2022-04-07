@@ -1,0 +1,158 @@
+body{
+	padding: 0;
+	margin: 0;
+	font-family: calibri light;
+}
+#Linea{
+	height: 5px;
+	background: #086a87;
+	width: 100%;
+}
+#Header{
+	width: 100%;
+	background: #0b2f3a;
+	height: 110px;
+}
+#Header #Texto1{
+	height: auto;
+	width: 800px;
+	border: 0px solid;
+	margin: auto;
+}
+#Header #Texto1 #Encabezado{
+	width: 200px; border: 0px solid;
+	float: left;
+}
+#Header #Texto1 #Encabezados h2, p{
+	color: white;
+}
+#Header #Texto1 #Encabezado p{
+	margin-top: -20px;
+}
+#Header #Menu{
+	width: 580px;
+	height: auto; 
+	overflow: hidden;
+	border: 0px solid;
+	float: right;
+	margin-top: 50px;
+	text-align: right;
+}
+#Header #Menu ul li{
+	display: inline-block;
+}
+#Header #Menu ul li a{
+	color: #04b4ae;
+	text-decoration: none;
+	padding: 7px 10px;
+	margin: 0px 4px;
+}
+#Header #Menu ul li a:hover{
+	background: #0a2a23;
+}
+
+#Bienvenida{
+	width: 100%;
+	height: auto; overflow: hidden;
+	background: #064156;
+}
+#Bienvenida #Texto2{
+	width: 800px;
+	margin: auto;
+}
+#Bienvenida #Texto2 #Lado1{
+	width: 290px;
+	border: 0px solid;
+	float: left;
+}
+#Bienvenida #Texto2 #Lado1 h2{
+	color: white;
+	font-weight: lighter;
+	text-align: center;
+}
+.Presentacion{
+	color: #04b4ae;
+	text-align: left;
+}
+#Bienvenida #Texto2 #Lado2{
+	width: 490px;
+	height: auto; float: right;
+}
+.img{
+	width: 470px;
+	height: 180px;
+	border: 3px solid #088a85;
+	margin: 20px 0px;
+	float: right;
+}
+
+#Contenido{
+	background: #f2f2f2;
+	width: 100%;
+	height: auto; overflow: hidden;
+}
+#Contenido #Texto3{
+	width: 800px;
+	margin: auto; border: 0px solid; height: auto; overflow: hidden;
+}
+#Contenido #Texto3 #Lateral1{
+	width: 400px;
+	height: auto; overflow: hidden;
+	border: 0px solid;
+	float: left;
+}
+#Contenido #Texto3 #Lateral1 h3{
+	color: #0b615e;
+}
+#Contenido #Texto3 #Lateral1 .Descripcion{
+	text-align: left; color: #6e6e6e; 
+}
+.Editar-img{
+	width: 120px; height: 100px; display: inline-block;
+	padding: 2px; border: 1px solid #ccc;
+}
+
+#Contenido #Texto3 #Lateral2{
+	width: -400px;
+	height: auto; overflow: hidden;
+	border: 0px solid;
+	float: right;
+}
+#Contenido #Texto3 #Lateral2 h3{
+	text-align: left;
+	font-size: 22px;
+	color: #0b615e;
+}
+#Contenido #Texto3 #Lateral2 article{
+	width: 100%;
+	height: auto; overflow: hidden;
+	margin-top: -20px;
+	margin-bottom: 20px;
+}
+#Contenido #Texto3 #Lateral2 article h4{
+	text-align: left; font-size: 15px;
+}
+#Contenido #Texto3 #Lateral2 article p{
+	color: #6e6e6e; text-align: left;
+	margin-top: -22px;	
+}
+.Saber{
+	padding: 4px 10px;
+	background: #086a87;
+	text-decoration: none;
+	float left;
+	border-radius: 5px;
+	color: #fff; border: 0;
+	margin-top: -15px;
+}
+#Pie{
+	clear: both;
+	text-align: center;
+	padding: 20px;
+	border-top: 15px solid #086a87;
+	color: #6e6e6e;
+}
+#imr{
+	width: 50;
+	height: 100px;
+}
